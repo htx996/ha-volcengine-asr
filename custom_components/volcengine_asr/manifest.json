@@ -1,14 +1,14 @@
 {
   "domain": "volcengine_asr",
   "name": "豆包语音识别",
-  "documentation": "https://github.com/qian2023qian/ha-volcengine-asr",
-  "issue_tracker": "https://github.com/qian2023qian/ha-volcengine-asr/issues",
-  "version": "1.0.1",
-  "codeowners": ["@qian2023qian"],
-  "requirements": ["websockets"],
-  "iot_class": "cloud_push",
-  "loggers": ["custom_components.volcengine_asr"],
-  "dependencies": [],
   "after_dependencies": ["http"],
-  "config_flow": true
+  "codeowners": ["@qian2023qian"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/qian2023qian/ha-volcengine-asr",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/qian2023qian/ha-volcengine-asr/issues",
+  "loggers": ["custom_components.volcengine_asr"],
+  "requirements": ["websockets"],
+  "version": "1.0.1"
 }
