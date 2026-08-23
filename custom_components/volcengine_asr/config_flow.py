@@ -207,17 +207,17 @@ class VolcengineASRConfigFlow(ConfigFlow, domain=DOMAIN):
     @callback
     def async_get_options_flow(config_entry: ConfigEntry) -> OptionsFlow:
         """Return the advanced options flow."""
-        return VolcengineASROptionsFlow(config_entry)
+        return VolcengineASROptionsFlow()
 
 
 class VolcengineASROptionsFlow(OptionsFlow):
     """Advanced options for the Volcengine ASR integration."""
 
-    def __init__(self, config_entry: ConfigEntry) -> None:
+    # HA 2025.x+ 的 OptionsFlow.config_entry 是基类只读 property，
+    # 由框架在构造后通过 handler/hass 注入；构造器不接收参数。
+    def __init__(self) -> None:
         """Initialize options flow."""
-        # 注意：HA 2025.x+ 中 OptionsFlow.config_entry 是基类的只读属性，
-        # 必须通过 super().__init__ 传入，不能直接赋值。
-        super().__init__(config_entry)
+        super().__init__()
 
     async def async_step_init(self, user_input: dict | None = None) -> FlowResult:
         """Manage the advanced options."""
