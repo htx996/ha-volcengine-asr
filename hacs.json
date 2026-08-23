@@ -1,0 +1,5 @@
+{
+  "name": "豆包语音识别（Volcengine ASR）",
+  "homeassistant": "2024.1.0",
+  "render_readme": true
+}

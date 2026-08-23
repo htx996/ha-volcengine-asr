@@ -1,0 +1,47 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Volcengine ASR (Doubao)",
+        "description": "Configure Volcano Engine Doubao speech recognition. Get your API key at [the Speech console]({apikey_url}).",
+        "data": {
+          "name": "Name",
+          "api_key": "API Key",
+          "resource_id": "Resource ID"
+        }
+      }
+    },
+    "error": {
+      "invalid_api_key": "API Key must not be empty",
+      "invalid_resource_id": "Resource ID must not be empty"
+    },
+    "abort": {
+      "already_configured": "This API Key is already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Volcengine ASR advanced options",
+        "data": {
+          "language": "Language",
+          "enable_itn": "Enable ITN (inverse text normalization)",
+          "enable_punc": "Enable punctuation",
+          "result_type": "Result type",
+          "show_utterances": "Show utterances",
+          "performance_mode": "Performance mode",
+          "end_window_size": "VAD end window size (ms)",
+          "force_to_speech_time": "Force-to-speech time (ms)",
+          "service_url": "WebSocket service URL",
+          "audio_format": "Audio format",
+          "audio_rate": "Sample rate (Hz)",
+          "audio_bits": "Bit depth",
+          "audio_channel": "Channels",
+          "log_text_change_only": "Log only when text changes",
+          "enable_perf_log": "Enable performance logs",
+          "log_level": "Log level"
+        }
+      }
+    }
+  }
+}

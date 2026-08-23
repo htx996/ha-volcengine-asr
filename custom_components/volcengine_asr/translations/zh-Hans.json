@@ -1,0 +1,47 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "豆包语音识别（火山引擎）",
+        "description": "配置火山引擎豆包大模型语音识别。API Key 可在[语音技术控制台]({apikey_url})获取。",
+        "data": {
+          "name": "名称",
+          "api_key": "API Key",
+          "resource_id": "资源 ID（Resource ID）"
+        }
+      }
+    },
+    "error": {
+      "invalid_api_key": "API Key 不能为空",
+      "invalid_resource_id": "资源 ID 不能为空"
+    },
+    "abort": {
+      "already_configured": "该 API Key 已配置过"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "豆包语音识别高级选项",
+        "data": {
+          "language": "识别语言",
+          "enable_itn": "启用 ITN（数字/口语规范化）",
+          "enable_punc": "启用标点",
+          "result_type": "结果类型",
+          "show_utterances": "显示分句",
+          "performance_mode": "性能模式",
+          "end_window_size": "VAD 结束窗口（毫秒）",
+          "force_to_speech_time": "强制语音判定（毫秒）",
+          "service_url": "WebSocket 服务地址",
+          "audio_format": "音频格式",
+          "audio_rate": "采样率（Hz）",
+          "audio_bits": "位深",
+          "audio_channel": "声道数",
+          "log_text_change_only": "仅文本变化时记录日志",
+          "enable_perf_log": "启用性能日志",
+          "log_level": "日志级别"
+        }
+      }
+    }
+  }
+}
