@@ -1,4 +1,4 @@
-{
+﻿{
   "domain": "volcengine_asr",
   "name": "豆包语音识别",
   "after_dependencies": ["http"],
@@ -10,5 +10,5 @@
   "issue_tracker": "https://github.com/qian2023qian/ha-volcengine-asr/issues",
   "loggers": ["custom_components.volcengine_asr"],
   "requirements": ["websockets"],
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
