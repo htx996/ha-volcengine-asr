@@ -10,5 +10,5 @@
   "issue_tracker": "https://github.com/qian2023qian/ha-volcengine-asr/issues",
   "loggers": ["custom_components.volcengine_asr"],
   "requirements": ["websockets"],
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
