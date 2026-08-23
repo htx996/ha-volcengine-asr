@@ -3,7 +3,7 @@
   "name": "豆包语音识别",
   "documentation": "https://github.com/qian2023qian/ha-volcengine-asr",
   "issue_tracker": "https://github.com/qian2023qian/ha-volcengine-asr/issues",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "codeowners": ["@qian2023qian"],
   "requirements": ["websockets"],
   "iot_class": "cloud_push",
