@@ -1,4 +1,4 @@
-﻿{
+{
   "domain": "volcengine_asr",
   "name": "豆包语音识别",
   "after_dependencies": ["http"],
